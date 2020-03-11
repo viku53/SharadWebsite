@@ -1,0 +1,68 @@
+body{
+    height: 100vh;
+    
+}
+.container-fluid{
+    margin: 0;
+    padding: 0 10% 0 10%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.header{
+    margin: 0;
+    padding : 40px;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    background-color: #05e8ba;
+    background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
+    text-align: center;
+}
+.container{
+    margin: 0;
+    padding : 40px;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    background-color: #05e8ba;
+    background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
+    text-align: center;
+    height: 100vh;
+}
+.header h1{
+    font-weight: bold;
+    font-size: 28px;
+}
+.container marquee,h2{
+    /* font-weight: bold; */
+    font-size: 22px;
+}
+.login{
+    margin-left: 28%;
+    display: block;
+    width: 40%;
+    border: 1px solid #fff;
+    padding: 20px;
+    margin-top: 10%;
+}
+.register{
+    margin-left: 28%;
+    display: block;
+    width: 40%;
+    border: 1px solid #fff;
+    padding: 20px;
+}
+
+.btn-login{
+    display: inline-block;
+    border: 1px solid #ffff;
+    /* border-radius: 10%; */
+    box-shadow: 0 1px 2px #fff;
+    background: transparent;
+    padding: 8px;
+    font-size: 16px;
+    width: 150px;
+    z-index: 1;
+    margin: auto;
+}
+form{
+    margin-top: 10%;
+}
