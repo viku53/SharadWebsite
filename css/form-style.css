@@ -52,7 +52,7 @@ button{
 button a{
     color: #fff;
 }
-h2,h1,marquee{
+h2,h1,marquee,footer{
     color:#fff;
     text-shadow: 0 1px 2px #000;
 }
