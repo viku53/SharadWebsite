@@ -17,6 +17,7 @@ a{
     background-color: #05e8ba;
     background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
     text-align: center;
+    
 }
 .container{
     margin: 0;
@@ -25,7 +26,8 @@ a{
     background-color: #05e8ba;
     background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
     text-align: center;
-    height: 100vh;
+    height: auto;
+    
 }
 .header h1{
     font-weight: bold;
@@ -33,20 +35,20 @@ a{
 }
 .container marquee,h2{
     /* font-weight: bold; */
-    font-size: 22px;
+    font-size: 30px;
 }
 .login{
-    margin-left: 28%;
+    margin-left: 20%;
     display: block;
-    width: 40%;
+    width: 60%;
     border: 1px solid #fff;
     padding: 20px;
     margin-top: 10%;
 }
 .register{
-    margin-left: 28%;
+    margin-left: 20%;
     display: block;
-    width: 40%;
+    width: 60%;
     border: 1px solid #fff;
     padding: 20px;
 }
@@ -62,7 +64,8 @@ a{
     width: 150px;
     z-index: 1;
     margin: auto;
+    cursor: pointer;
 }
 form{
-    margin-top: 10%;
+    margin-top: 20%;
 }

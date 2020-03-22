@@ -7,6 +7,7 @@
         <meta name="author" content="Sharad Gohil">
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/form-style.css">
         <title>
             Student Form
         </title>
@@ -21,7 +22,8 @@
             <main>
                 <div class="container">
                     <h2> F O R M</h2>
-                    <form name="studentData" method="POST">
+                    <form name="studentData"
+                    id="student" method="POST">
                         <label for="fname"/>First Name:
                         <input type="text" id="fname"
                         placeholder="Enter Student's First Name" required><br><br>
@@ -33,8 +35,8 @@
                         <input type="date" id="dob"
                         required>
                         <br><br>
-                        <label for="std"/>Standard:
-                        <input type="number" id="std"
+                        <label for="std"/>Standard:<br>
+                        <input type="text" id="std"
                         placeholder="Enter Standard"required>
                         <br><br>
                         <label for="batch"/>Batch:
@@ -44,7 +46,7 @@
                         <label for="sname"/>School Name:
                         <input type="text" id="sname"
                         placeholder="Enter Student's School Name"required><br><br>
-                        <label for="address"/>Address:
+                        <label for="address"/>Address:<br>
                         <textarea id="address" placeholder="Enter Your Current Address"required></textarea>
                         <br><br>
                         <label for="mnumber"/>Mobile Number:
@@ -59,7 +61,7 @@
                         <input type="text" id="mnumber"
                         placeholder="Enter Student's Addmission Date"required>
                         <br><br>    
-                        <label for="info"/>Additional Information:
+                        <label for="info"/>Additional Information:<br>
                         <textarea id="info" placeholder="Enter Some Additional Information"required></textarea><br><br>
                         <input type="submit">
                     </form>
